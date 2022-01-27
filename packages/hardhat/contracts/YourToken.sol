@@ -10,7 +10,7 @@ contract YourToken is ERC20 {
 
      constructor() public ERC20("Gold", "GLD") {
         // _mint() 1000 * 10 ** 18 to msg.sender
-        uint256 mintAmount = 1000 * 10 ** 18;
+        uint256 mintAmount = 2000 * 10 ** 18;
         _mint(msg.sender, mintAmount);
     }
 }
